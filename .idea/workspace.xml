@@ -10,7 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b860d2ef-7c08-4dfc-b9af-b0b2db5f7dc5" name="Default Changelist" comment="VUE MUSCAT frontend" />
+    <list default="true" id="b860d2ef-7c08-4dfc-b9af-b0b2db5f7dc5" name="Default Changelist" comment="VUE MUSCAT frontend">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/static/vue/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/static/vue/js/app.8017c950.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/static/vue/js/app.8017c950.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/static/vue/js/chunk-vendors.4d724615.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/static/vue/js/chunk-vendors.4d724615.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -101,6 +111,7 @@
       <workItem from="1660892591493" duration="390000" />
       <workItem from="1660892993448" duration="51000" />
       <workItem from="1660893087503" duration="10000" />
+      <workItem from="1660893775210" duration="652000" />
     </task>
     <task id="LOCAL-00001" summary="VUE MUSCAT INIT">
       <created>1660889080469</created>
@@ -183,10 +194,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1660807223439" />
-    <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1660892982846">
+    <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1660893798992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1660892982846" />
+    <state x="740" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1660893798992" />
     <state x="833" y="417" width="631" height="419" key="Github.ShareDialog" timestamp="1660892051220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
