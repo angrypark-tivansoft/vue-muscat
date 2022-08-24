@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tivansoft.muscat.common.CommonMapper">
+
+    <select id="selectMemberList" parameterType="com.tivansoft.muscat.common.vo.CommonVO" resultType="com.tivansoft.muscat.common.vo.CommonVO">
+    SELECT
+         USER_ID AS userId
+        ,PSTN AS pstn
+        ,BLNG_TO AS blngTo
+    FROM CMN_USER
+    WHERE 1 =1
+    </select>
+
+
+</mapper>
