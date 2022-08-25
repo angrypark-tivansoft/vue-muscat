@@ -19,7 +19,8 @@ import java.util.Map;
 public class CommonController {
 
     private static final Logger logger = LoggerFactory.getLogger(CommonController.class);
-
+    @Autowired
+    private CommonService commonService;
 
     @GetMapping("/vue/login")
     public Map<String,Object> login(){
@@ -32,23 +33,11 @@ public class CommonController {
         return result;
     }
 
-
     @PostMapping("/vue/test")
-    public Map<String,Object> getLogin(@RequestBody CommonVO commonVO){
-
-        logger.debug("test");
-
+    public Map<String,Object> getLogin(@RequestBody CommonVO commonVO) throws Exception {
         Map<String,Object> result = new HashMap<String,Object>();
-        
-        
-        if ( commonVO == null || commonVO.getUserId() == null ) {
-            commonVO.setUserId("test");
-            commonVO.setMsg("세팅되었습니다.");
-        }
-        
-        result.put("commonVO", commonVO);
-        
-        
+        List<CommonVO> list =commonService.users(commonVO);
+        result.put("MemberList", list);
         return result;
     }
 
@@ -147,6 +136,8 @@ public class CommonController {
         result.put("itemList", receiptVOList);
 
 
+        List<CommonVO> list =commonService.users(commonVO);
+        result.put("MemberList", list);
         return result;
     }
 
