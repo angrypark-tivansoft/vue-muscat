@@ -1,10 +1,19 @@
-
 server:
   port: 9000
 
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://vue-muscat.czwt78mf7f1j.ap-northeast-2.rds.amazonaws.com:3306/vuemuscat?useSSL=false
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    url: jdbc:log4jdbc:mysql://vue-muscat.czwt78mf7f1j.ap-northeast-2.rds.amazonaws.com:3306/vuemuscat?useSSL=false
     username: admin
     password: qlqjs0spro
+
+logging:
+  level:
+    jdbc.sqlonly: debug
+    jdbc.audit: off
+    jdbc.connection: off
+    jdbc.resultset: off
+    jdbc.resultsettable: debug
+    jdbc.sqltiming: off
