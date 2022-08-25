@@ -4,6 +4,7 @@ package com.tivansoft.muscat.common;
 import com.tivansoft.muscat.common.vo.CommonVO;
 
 import com.tivansoft.muscat.common.vo.ReceiptVO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
 import org.slf4j.Logger;
@@ -19,6 +20,7 @@ import java.util.Map;
 public class CommonController {
 
     private static final Logger logger = LoggerFactory.getLogger(CommonController.class);
+
     @Autowired
     private CommonService commonService;
 
@@ -35,8 +37,9 @@ public class CommonController {
 
     @PostMapping("/vue/test")
     public Map<String,Object> getLogin(@RequestBody CommonVO commonVO) throws Exception {
+
         Map<String,Object> result = new HashMap<String,Object>();
-        List<CommonVO> list =commonService.users(commonVO);
+        List<CommonVO> list = commonService.users(commonVO);
         result.put("MemberList", list);
         return result;
     }
@@ -135,9 +138,6 @@ public class CommonController {
 
         result.put("itemList", receiptVOList);
 
-
-        List<CommonVO> list =commonService.users(commonVO);
-        result.put("MemberList", list);
         return result;
     }
 

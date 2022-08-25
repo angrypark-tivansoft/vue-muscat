@@ -14,46 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b860d2ef-7c08-4dfc-b9af-b0b2db5f7dc5" name="Default Changelist" comment="VUE MUSCAT frontend">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/ApiTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/HttpURLConnectionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/RestTemplateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/WebClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/vo/ReceiptVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/vo/RestTempVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/static/vue/js/app.e79c65e6.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/api/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/views/List.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.bin/he" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.bin/he.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.bin/he.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/de-indent/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/de-indent/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/de-indent/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/de-indent/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/he/LICENSE-MIT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/he/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/he/bin/he" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/he/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/he/man/he.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/he/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vue-template-compiler/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vue-template-compiler/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vue-template-compiler/browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vue-template-compiler/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vue-template-compiler/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vue-template-compiler/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vue-template-compiler/types/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/backend/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/CommonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/static/vue/js/app.71b8232b.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/static/vue/js/app.e79c65e6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/static/vue/js/app.71b8232b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/templates/vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/templates/vue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/CommonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/views/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +45,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DVe0Gd6XypVBF5biZRQAEzPq0H" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />

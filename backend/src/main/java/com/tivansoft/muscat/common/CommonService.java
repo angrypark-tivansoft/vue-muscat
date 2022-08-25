@@ -15,7 +15,7 @@ public class CommonService {
 
 
     public List<CommonVO> users(CommonVO commonVO) throws Exception {
-        List<CommonVO> list  =  mapper.selectMemberList(commonVO);
+        List<CommonVO> list = mapper.selectMemberList(commonVO);
         return list;
     }
 
