@@ -50,8 +50,9 @@
              }
 
              loginApi.getLogin(data).then(response => {
-                 alert(JSON.stringify(response.data));
+                alert(JSON.stringify(response.data));
                 this.common = response.data.commonVO;
+                this.$router.push('/vue/list');
              });
 
          }
