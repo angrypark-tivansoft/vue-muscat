@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.tivansoft.muscat.member.mapper.MemberMapper">
+    
+    <select id="getMemberList" parameterType="hashMap" resultType="com.tivansoft.muscat.member.vo.MemberVO">
+        SELECT USER_SEQ AS userSeq
+             , FRST_WRTR_SEQ AS frstWrtrSeq
+             , FRST_WRT_DTIM AS frstWrtDtim
+             , LAST_CHNG_SEQ AS lastChngSeq
+             , LAST_CHNG_DTIM AS lastChngDtim
+             , USE_YN AS useYn
+             , DEL_YN AS delYn
+             , USER_ID AS userId
+             , PSWD AS pswd
+             , INIT_PSWD_YN AS initPswdYn
+             , USER_NM AS userNm
+             , PSTN AS pstn
+             , BLNG_TO AS blngTo
+             , CELL_NO AS cellNo
+             , MAIL AS mail
+             , ENTR_DATE AS entrDate
+             , PSWD_ERR_CNT AS pswdErrCnt
+             , LOCAL_YN AS localYn
+          FROM CMN_USER
+          WHERE 1= 1
+          
+    </select>
+    
+    <insert id="insertMember" parameterType="com.tivansoft.muscat.member.vo.MemberVO">
+		INSERT INTO CMN_USER (
+			FRST_WRTR_SEQ, 
+			FRST_WRT_DTIM, 
+			LAST_CHNG_SEQ, 
+			LAST_CHNG_DTIM, 
+			USE_YN, 
+			DEL_YN, 
+			USER_ID, 
+			PSWD, 
+			INIT_PSWD_YN, 
+			USER_NM, 
+			PSTN, 
+			BLNG_TO, 
+			CELL_NO, 
+			MAIL, 
+			ENTR_DATE, 
+			PSWD_ERR_CNT, 
+			LOCAL_YN
+		) VALUES (
+			(SELECT MAX(A.FRST_WRTR_SEQ) + 1 FROM CMN_USER A), 
+			CURRENT_TIMESTAMP, 
+			1, 
+			CURRENT_TIMESTAMP, 
+			'Y', 
+			'N', 
+			#{ userId }, 
+			#{ pswd }, 
+			'Y', 
+			#{ userNm }, 
+			#{ pstn }, 
+			#{ blngTo }, 
+			#{ cellNo }, 
+			#{ mail }, 
+			#{ entrDate }, 
+			0, 
+			'Y'
+		)
+    </insert>
+    
+</mapper>

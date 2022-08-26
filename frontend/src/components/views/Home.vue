@@ -1,20 +1,14 @@
 <template>
-    <div class="wrap">
-        <li>
-            <router-link :to="{name: 'login'}">
-                Login
-            </router-link>
-        </li>
-
-    </div>
+	<div>JUST DO IT</div>
+	
 </template>
 
 <script>
-    export default {
-        name: 'home',
-        components : {
+export default {
 
-        }
-    }
-
+}
 </script>
+
+<style>
+
+</style>

@@ -1,7 +1,7 @@
-import http from "./http";
+import httpAPI from "./http";
 
 export default {
-    async getLogin(data) {
-        return http.post('vue/test',data);
+    async getLogin(paramData, successCallback, errorCallback) {
+        return await httpAPI.post('vue/login', paramData, successCallback, errorCallback);
     }
 }
