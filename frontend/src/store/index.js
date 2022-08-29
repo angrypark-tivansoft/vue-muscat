@@ -1,6 +1,16 @@
 import Vuex from 'vuex'
 
+// 작성한 모듈을 가져옵니다.
+import userStore from '@/store/modules/userStore.js'
+import postStore from '@/store/modules/postStore.js'
+
 const store = new Vuex.Store({
+    modules: {
+        // 키: 값 형태로 저장됩니다.
+        userStore: userStore,
+        postStore: postStore
+    },
+
     state: {
 // State는 쉽게 생각하면 공통으로 참조하기 위한 변수를 정의한 것이다.
 // 프로젝트의 모든 곳에서 이를 참조하고 사용할 수 있다.
