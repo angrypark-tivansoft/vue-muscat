@@ -16,7 +16,7 @@
             <tr v-for="item in itemInfoList" :key="item.cardNo">
               <td><span v-html="item.itemNm"></span></td>
               <td><span v-html="item.amt"></span></td>
-              <td><span v-html="item.cnt"></span></td>
+              <td><span v-html="item.buyCnt"></span></td>
               <td><span v-html="item.totAmt"></span></td>
             </tr>
           </table>
@@ -38,6 +38,7 @@
             <button @click="getListHttp">HttpConnection으로 가져오기</button>
             <button @click="getListRest">RestTemplate GET으로 가져오기</button>
             <button @click="postListRest">RestTemplate POST으로 가져오기</button>
+            <button @click="postListWc">WebClient POST으로 가져오기</button>
           </p>
 
 
@@ -107,7 +108,22 @@
               this.receiptInfo = response.data.receiptInfo;
             });
 
+          },
+
+          postListWc: function(){
+
+            const data = {
+            }
+
+            listApi.postListWc(data).then(response => {
+              alert(JSON.stringify(response.data));
+              this.itemInfoList = response.data.itemInfoList;
+              this.receiptInfo = response.data.receiptInfo;
+            });
+
           }
+
+
 
         }
 

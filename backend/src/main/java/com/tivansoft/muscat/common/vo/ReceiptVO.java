@@ -8,8 +8,9 @@ import lombok.Data;
 public class ReceiptVO {
 
     private String cardNo;
+    private String ordNo;
     private String itemNm;
-    private String cnt;
+    private String buyCnt;
     private String amt;
 
     private String totAmt;

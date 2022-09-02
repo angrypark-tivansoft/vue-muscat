@@ -63,7 +63,7 @@ public class CommonController {
         receiptVO.setCardNo("1242-1221-3312-2165");
         receiptVO.setItemNm("땅콩카라멜");
         receiptVO.setAmt("30,000");
-        receiptVO.setCnt("1");
+        receiptVO.setBuyCnt("1");
         receiptVO.setTotAmt("30,000");
 
         receiptVOList.add(receiptVO);
@@ -72,7 +72,7 @@ public class CommonController {
         receiptVO.setCardNo("1242-1221-3312-2165");
         receiptVO.setItemNm("마이쮸");
         receiptVO.setAmt("12,000");
-        receiptVO.setCnt("2");
+        receiptVO.setBuyCnt("2");
         receiptVO.setTotAmt("24,000");
 
         receiptVOList.add(receiptVO);
@@ -81,7 +81,7 @@ public class CommonController {
         receiptVO.setCardNo("1242-1221-3312-2165");
         receiptVO.setItemNm("생크림빵");
         receiptVO.setAmt("10,000");
-        receiptVO.setCnt("3");
+        receiptVO.setBuyCnt("3");
         receiptVO.setTotAmt("30,000");
 
         receiptVOList.add(receiptVO);
@@ -113,7 +113,7 @@ public class CommonController {
         receiptVO.setCardNo("1242-1221-3312-2165");
         receiptVO.setItemNm("땅콩카라멜123123123");
         receiptVO.setAmt("30,000");
-        receiptVO.setCnt("1");
+        receiptVO.setBuyCnt("1");
         receiptVO.setTotAmt("30,000");
 
         receiptVOList.add(receiptVO);
@@ -122,7 +122,7 @@ public class CommonController {
         receiptVO.setCardNo("1242-1221-3312-2165");
         receiptVO.setItemNm("마이쮸123123123");
         receiptVO.setAmt("12,000");
-        receiptVO.setCnt("2");
+        receiptVO.setBuyCnt("2");
         receiptVO.setTotAmt("24,000");
 
         receiptVOList.add(receiptVO);
@@ -131,7 +131,7 @@ public class CommonController {
         receiptVO.setCardNo("1242-1221-3312-2165");
         receiptVO.setItemNm("생크림빵123123123");
         receiptVO.setAmt("10,000");
-        receiptVO.setCnt("3");
+        receiptVO.setBuyCnt("3");
         receiptVO.setTotAmt("30,000");
 
         receiptVOList.add(receiptVO);

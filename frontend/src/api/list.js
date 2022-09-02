@@ -12,6 +12,10 @@ export default {
 
     async postListRest(data) {
         return http.post('vue/postListRest',data);
+    },
+
+    async postListWc(data) {
+        return http.post('vue/postListWc',data);
     }
 
 }

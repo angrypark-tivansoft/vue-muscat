@@ -13,5 +13,38 @@
     WHERE 1 =1
     </select>
 
+    <insert id="insertApiTest" parameterType="com.tivansoft.muscat.common.vo.ReceiptVO" >
+        INSERT INTO CMN_API_TEST
+        (
+             CARD_NO
+            ,ORD_NO
+            ,ITEM_SEQ
+            ,ITEM_NM
+            ,BUY_CNT
+            ,AMT
+            ,FRST_WRTR_SEQ
+            ,FRST_WRT_DTIM
+            ,LAST_CHNG_SEQ
+            ,LAST_CHNG_DTIM
+            ,USE_YN
+            ,DEL_YN
+        )
+        VALUES
+        (
+             REGEXP_REPLACE(#{cardNo}, '[^[:alnum:][:space:]]+', '')
+            ,#{ordNo}
+            ,(SELECT IFNULL(MAX(ITEM_SEQ), 0) + 1 FROM CMN_API_TEST A WHERE CARD_NO = #{cardNo} AND ORD_NO = #{ordNo})
+            ,#{itemNm}
+            ,#{buyCnt}
+            ,REGEXP_REPLACE(#{amt}, '[^[:alnum:][:space:]]+', '')
+            ,1
+            ,SYSDATE()
+            ,1
+            ,SYSDATE()
+            ,'Y'
+            ,'Y'
+        )
+    </insert>
+
 
 </mapper>

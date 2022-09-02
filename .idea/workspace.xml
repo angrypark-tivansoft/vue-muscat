@@ -14,10 +14,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b860d2ef-7c08-4dfc-b9af-b0b2db5f7dc5" name="Default Changelist" comment="VUE MUSCAT frontend">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/backend/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/ApiTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/ApiTestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/CommonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/CommonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/CommonMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/CommonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/WebClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/WebClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/vo/ReceiptVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/vo/ReceiptVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/log4jdbc.log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/mybatis/common/CommonMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/mybatis/common/CommonMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/api/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/views/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/views/List.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +71,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/vo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -130,6 +139,7 @@
       <workItem from="1661133743989" duration="15944000" />
       <workItem from="1661318319702" duration="7524000" />
       <workItem from="1661390534707" duration="4200000" />
+      <workItem from="1661737636851" duration="9665000" />
     </task>
     <task id="LOCAL-00001" summary="VUE MUSCAT INIT">
       <created>1660889080469</created>
@@ -159,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660892881881</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="VUE MUSCAT frontend">
+      <created>1661413568600</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661413568600</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
