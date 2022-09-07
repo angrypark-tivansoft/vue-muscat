@@ -14,19 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b860d2ef-7c08-4dfc-b9af-b0b2db5f7dc5" name="Default Changelist" comment="VUE MUSCAT frontend">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/backend/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/ApiTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/ApiTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/CommonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/CommonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/CommonMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/CommonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/WebClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/WebClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/vo/ReceiptVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/tivansoft/muscat/common/vo/ReceiptVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/log4jdbc.log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/mybatis/common/CommonMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/mybatis/common/CommonMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/api/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/views/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/views/List.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,8 +94,8 @@
       </method>
     </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18.0.2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

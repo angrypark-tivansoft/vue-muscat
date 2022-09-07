@@ -5,8 +5,8 @@ spring:
   datasource:
 #    driver-class-name: com.mysql.cj.jdbc.Driver
     driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-    url: jdbc:log4jdbc:mysql://vue-muscat.czwt78mf7f1j.ap-northeast-2.rds.amazonaws.com:3306/vuemuscat?useSSL=false
-    username: admin
+    url: jdbc:log4jdbc:mysql://park82ch.synology.me:3306/infiniti?useSSL=false
+    username: infiniti
     password: qlqjs0spro
 
 logging:
